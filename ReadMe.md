@@ -1,5 +1,7 @@
 This is Magic Link Authorization System.
 
+See on Heroku: https://magiclinkauthorizationsystem.herokuapp.com/
+
 For start you need create and activate virtual environment, then clone this repo.  
 
 After that run:  
