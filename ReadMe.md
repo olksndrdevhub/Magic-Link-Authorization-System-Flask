@@ -1,4 +1,4 @@
-##This is Magic Link Authorization System.
+!This is Magic Link Authorization System.
 
 For start you need create and activate virtual environment, then clone this repo.  
 
