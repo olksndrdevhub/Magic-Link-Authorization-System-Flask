@@ -1,4 +1,4 @@
-!This is Magic Link Authorization System.
+This is Magic Link Authorization System.
 
 For start you need create and activate virtual environment, then clone this repo.  
 
@@ -11,9 +11,9 @@ After that run:
 
 Server start on <a>localhost:5000</a> so go on this address in your browser.  
 
-###How it works.  
+How it works.  
 
-#####I built this project based on Flask.
+I built this project based on Flask.  
 I installed and used the following extensions:  
 >Flask Mail (for sending letters)  
 >Flask SQLAlchemy (for interaction with the database)  
