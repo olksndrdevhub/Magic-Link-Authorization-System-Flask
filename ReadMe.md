@@ -5,7 +5,7 @@ After that run:
 `pip install -r requirements.txt`  
 `flask db init`  
 `flask db migrate`  
-`flask db upgrade` 
+`flask db upgrade`  
 `flask run`
 
 Server start on <a>localhost:5000</a> so go on this address in your browser.  
