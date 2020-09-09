@@ -17,7 +17,7 @@ app.config['SECRET_KEY'] = 'thisismysecretkey'
 
 # set config values for flask-mail
 app.config.update(dict(
-    DEBUG = True,
+    DEBUG = False,
     MAIL_SERVER = 'smtp.gmail.com',
     MAIL_PORT = 587,
     MAIL_USE_TLS = True,
@@ -158,3 +158,5 @@ def delete_users():
 
 
 
+if __name__ == "__main__":
+    app.run()
