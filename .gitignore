@@ -1,0 +1,4 @@
+**/migrations
+*.db
+**/__pycache__
+**/__vscode__

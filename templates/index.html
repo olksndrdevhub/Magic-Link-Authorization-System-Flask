@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block form %}
+
+    <section class="pt-5 mt-5 container">
+        {% if error_message!=None %}
+        <h2 class="mt-5 mb-5 text-center">{{error_message}}</h2>
+        {% endif %}
+        
+        <div class="container mt-5 mb-5">
+            <h3 class="text-center">To log in, please follow the link in the letter we sent you after registration.</h3>
+        </div>
+
+        <form action="" method="post" name="form" id="email_form">
+            <label for="email">Type your email to get Magic Link</label>
+            <input type="email" name="email" id="email" class="form-control mb-5" required>
+            <input type="submit" value="Send" class="form-control btn btn-success">
+        </form>
+    </section>
+{% endblock form %}
