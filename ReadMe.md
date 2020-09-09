@@ -14,14 +14,14 @@ Server start on <a>localhost:5000</a> so go on this address in your browser.
 ###How it works.  
 
 #####I built this project based on Flask.
-I installed and used the following extensions:
->Flask Mail (for sending letters)
->Flask SQLAlchemy (for interaction with the database)
->Flask Migrate (for database interaction)
+I installed and used the following extensions:  
+>Flask Mail (for sending letters)  
+>Flask SQLAlchemy (for interaction with the database)  
+>Flask Migrate (for database interaction)  
 
-I also used the built-in python libraries:
->secrets (for generate token)
->hashlib (for generate hash)
+I also used the built-in python libraries:  
+>secrets (for generate token)  
+>hashlib (for generate hash)  
 
 
 When the main page is opened, the user sees the field and the send button. To register and receive a magic link, the user must enter an email and click button.  
