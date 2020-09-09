@@ -1,6 +1,6 @@
 This is Magic Link Authorization System.
 
-For start you need create virtual environment, then clone this repo.  
+For start you need create and activate virtual environment, then clone this repo.  
 After that run:  
 `pip install > requirements.txt`  
 `flask db init`  
